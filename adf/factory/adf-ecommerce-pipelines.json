@@ -1,0 +1,9 @@
+{
+	"name": "adf-ecommerce-pipelines",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5ab7da70-7f6e-4d86-b334-8ddb191bca86",
+		"tenantId": "ca61cb0f-d711-44cb-8828-05446fc234c4"
+	}
+}

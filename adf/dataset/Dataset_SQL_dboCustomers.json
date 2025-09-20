@@ -1,0 +1,38 @@
+{
+	"name": "Dataset_SQL_dboCustomers",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSQL_DBEcommer_EngDados",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "EcommerceEngDados"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "customer_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "city",
+				"type": "nvarchar"
+			},
+			{
+				"name": "country",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Customers"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
