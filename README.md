@@ -23,18 +23,18 @@ O projeto foi desenvolvido utilizando **Databricks**, **PySpark** e **Azure Data
 Project-Data-Eng/
 
 ├─ notebooks/
-│ ├─ 01_conexao_ADLS.ipynb # Conexão com ADLS via OAuth
-│ ├─ 02_enriquecimento_vendas.ipynb # Leitura, join, cálculo e escrita em Parquet
-│
+01_conexao_ADLS.ipynb # Conexão com ADLS via OAuth
+02_enriquecimento_vendas.ipynb # Leitura, join, cálculo e escrita em Parquet
+
 ├─ data/
-│ ├─ raw/ # Amostras de arquivos CSV
-│ ├─ processed/ # Dados enriquecidos em Parquet
-│
+raw/ # Amostras de arquivos CSV
+processed/ # Dados enriquecidos em Parquet
+
 ├─ utils/
-│ └─ funcoes.py # Funções auxiliares (listar arquivos, ler CSV, salvar Parquet)
-│
+funcoes.py # Funções auxiliares (listar arquivos, ler CSV, salvar Parquet)
+
 ├─ README.md
-└─ .gitignore
+.gitignore
 
 
 ---
