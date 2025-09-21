@@ -162,8 +162,8 @@
 								},
 								"sink": {
 									"name": "order_id",
-									"type": "String",
-									"physicalType": "String"
+									"type": "Int32",
+									"physicalType": "int"
 								}
 							},
 							{
@@ -174,8 +174,8 @@
 								},
 								"sink": {
 									"name": "order_date",
-									"type": "String",
-									"physicalType": "String"
+									"type": "Date",
+									"physicalType": "date"
 								}
 							},
 							{
@@ -186,8 +186,8 @@
 								},
 								"sink": {
 									"name": "customer_id",
-									"type": "String",
-									"physicalType": "String"
+									"type": "Int32",
+									"physicalType": "int"
 								}
 							},
 							{
@@ -198,8 +198,8 @@
 								},
 								"sink": {
 									"name": "product_id",
-									"type": "String",
-									"physicalType": "String"
+									"type": "Int32",
+									"physicalType": "int"
 								}
 							},
 							{
@@ -210,8 +210,8 @@
 								},
 								"sink": {
 									"name": "quantity",
-									"type": "String",
-									"physicalType": "String"
+									"type": "Int32",
+									"physicalType": "int"
 								}
 							},
 							{
@@ -222,8 +222,10 @@
 								},
 								"sink": {
 									"name": "unit_price",
-									"type": "String",
-									"physicalType": "String"
+									"type": "Decimal",
+									"physicalType": "decimal",
+									"scale": 2,
+									"precision": 10
 								}
 							}
 						],
