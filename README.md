@@ -21,7 +21,7 @@ O projeto foi desenvolvido utilizando **Databricks**, **PySpark** e **Azure Data
 
 ## 3. Estrutura do Projeto
 Project-Data-Eng/
-│
+
 ├─ notebooks/
 │ ├─ 01_conexao_ADLS.ipynb # Conexão com ADLS via OAuth
 │ ├─ 02_enriquecimento_vendas.ipynb # Leitura, join, cálculo e escrita em Parquet
@@ -65,17 +65,3 @@ Project-Data-Eng/
       df_enriched = spark.read.parquet("abfss://processed@<storage_account>.dfs.core.windows.net/enriched_sales/")
       df_enriched.show(5)
       ```
-
----
-
-## 5. Observações
-- Apenas **arquivos de amostra** devem ser incluídos no GitHub (não subir dados reais).  
-- O foco do projeto é **pipeline de dados e transformação**, não volume de dados.  
-- Todos os passos estão comentados no notebook para facilitar compreensão e execução.  
-
----
-
-## 6. Possíveis Extensões
-- Adicionar agregações ou métricas (vendas totais por produto/cliente).  
-- Criar dashboards em Power BI ou Databricks SQL.  
-- Integrar o pipeline com Azure Data Factory para automatização.
